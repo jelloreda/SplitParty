@@ -1,0 +1,172 @@
+{
+    "productos": [
+        {
+            "nombre": "Papas fritas",
+            "marca": "Pringles",
+            "precio": 2.99,
+            "cantidad": 1,
+            "unidad": "unidad",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Salsa de tomate",
+            "marca": "Heinz",
+            "precio": 1.89,
+            "cantidad": 1,
+            "unidad": "bote",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Cerveza",
+            "marca": "Corona",
+            "precio": 10.99,
+            "cantidad": 12,
+            "unidad": "botella",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Refresco",
+            "marca": "Coca Cola",
+            "precio": 3.49,
+            "cantidad": 2,
+            "unidad": "bote",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Papas fritas",
+            "marca": "Lay's",
+            "precio": 1.99,
+            "cantidad": 1,
+            "unidad": "bolsa",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Palitos salados",
+            "marca": "Sanissimo",
+            "precio": 2.39,
+            "cantidad": 1,
+            "unidad": "paquete",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Galletas saladas",
+            "marca": "Ritz",
+            "precio": 2.99,
+            "cantidad": 1,
+            "unidad": "paquete",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Helado",
+            "marca": "Ben & Jerry's",
+            "precio": 5.99,
+            "cantidad": 1,
+            "unidad": "tarrina",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Chips de maíz",
+            "marca": "Doritos",
+            "precio": 2.49,
+            "cantidad": 1,
+            "unidad": "bolsa",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Salsa picante",
+            "marca": "Tabasco",
+            "precio": 3.99,
+            "cantidad": 1,
+            "unidad": "bote",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Nueces",
+            "marca": "Wonderful",
+            "precio": 4.99,
+            "cantidad": 1,
+            "unidad": "bolsa",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Patatas fritas",
+            "marca": "Matutano",
+            "precio": 1.99,
+            "cantidad": 1,
+            "unidad": "bolsa",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Palomitas de maíz",
+            "marca": "Act II",
+            "precio": 2.99,
+            "cantidad": 1,
+            "unidad": "paquete",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Salsa de queso",
+            "marca": "Président",
+            "precio": 2.49,
+            "cantidad": 1,
+            "unidad": "bote",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Nuggets de pollo",
+            "marca": "McDonald's",
+            "precio": 6.99,
+            "cantidad": 10,
+            "unidad": "unidad",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Pizzas",
+            "marca": "Dr. Oetker",
+            "precio": 4.99,
+            "cantidad": 1,
+            "unidad": "caja",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Salsa de guacamole",
+            "marca": "Yucatan",
+            "precio": 3.79,
+            "cantidad": 1,
+            "unidad": "bote",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Pretzels",
+            "marca": "Snyder's",
+            "precio": 2.49,
+            "cantidad": 1,
+            "unidad": "paquete",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Hummus",
+            "marca": "Sabra",
+            "precio": 3.49,
+            "cantidad": 1,
+            "unidad": "bote",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Cerveza sin alcohol",
+            "marca": "Heineken",
+            "precio": 7.99,
+            "cantidad": 6,
+            "unidad": "botella",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        },
+        {
+            "nombre": "Barbacoa",
+            "marca": "Weber",
+            "precio": 24.99,
+            "cantidad": 1,
+            "unidad": "unidad",
+            "imagen": "https://cdn.icon-icons.com/icons2/1933/PNG/512/iconfinder-picture-images-photo-image-camera-4593187_122267.png"
+        }
+    ]
+}

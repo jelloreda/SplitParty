@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+API ENDPOINTS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Users Routes
 
-## Available Scripts
+Base URL /users
 
-In the project directory, you can run:
+| HTTP Method | URI Path     | Description                   |
+|-------------|--------------|-------------------------------|
+| GET         | /getAllUsers | All users list                |
+| GET         | /:id         | User details with matching id |
 
-### `npm start`
+Products Routes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Base URL /products
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| HTTP Method | URI Path        | Description                      |
+|-------------|-----------------|----------------------------------|
+| GET         | /getAllProducts | All Products List                |
+| POST        | /saveProducts   | Create new products              |
+| GET         | /:id            | Product details with matching id |
+| PUT         | /:id/edit       | Edit product with matching id    |
+| DELETE      | /:id/delete     | Delete product with matching id  |
 
-### `npm test`
+Event Routes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Base URL /events
 
-### `npm run build`
+| HTTP Method | URI Path      | Description                    |
+|-------------|---------------|--------------------------------|
+| GET         | /getAllEvents | All Events List                |
+| POST        | /saveEvents   | Create new events              |
+| GET         | /:id          | Event details with matching id |
+| PUT         | /:id/edit     | Edit event with matching id    |
+| DELETE      | /:id/delete   | Delete event with matching id  |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Auth Routes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Base URL /auth
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| HTTP Method | URI Path | Description       |
+|-------------|----------|-------------------|
+| POST        | /signup  | Sign up user      |
+| POST        | /login   | Login user        |
+| GET         | /verify  | Verify auth token |
 
-### `npm run eject`
+CLIENTES ROUTES
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| URL                  | Description                     | Protected |
+|----------------------|---------------------------------|-----------|
+| /                    | Index page                      |           |
+| /login               | Login page                      |           |
+| /signup              | Signup page                     |           |
+| /profile             | Logged in user Profile          | x         |
+| /profile/edit        | Edit logged in user profile     | x         |
+| /profile/delete      | Delete logged in user profile   | x         |
+| /users               | Get all users list              |           |
+| /users/:id           | User detail with matching id    | x         |
+| /events              | Events List Page                |           |
+| /events/create       | New event form page             | x         |
+| /events/:id          | Event details page              | x         |
+| /events/:id/edit     | Edit event form page            | x         |
+| /events/:id/delete   | Delete event                    | x         |
+| /products            | Get all products list           |           |
+| /products/create     | Create new product              | x         |
+| /products/:id        | Product detail with matching id |           |
+| /products/:id/edit   | Edit product with matching id   | x         |
+| /products/:id/delete | Delete product with matching id | x         |

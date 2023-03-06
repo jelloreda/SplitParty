@@ -1,0 +1,7 @@
+.eventCardBanner {
+    height: 100px;
+    display: grid;
+    place-items: center;
+    font-size: 2em;
+    color: white
+}

@@ -8,8 +8,8 @@ const EventList = ({ events }) => {
             {
                 events.map(elm => {
                     return (
-                        <Col md={6} className='p-2'>
-                            <EventCard key={elm._id} elm={elm} />
+                        <Col md={{ span: 6 }} key={elm._id} className='p-2'>
+                            <EventCard elm={elm} />
                         </Col>
                     )
                 })

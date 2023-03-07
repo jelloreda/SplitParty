@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import { Tabs, Tab, Form, Button, Card, Row, Col, Container, ListGroup } from "react-bootstrap"
 import eventsService from "../../services/events.services"
-import productsService from "../../services/products.services"
 
 
 const NewEventForm = () => {
@@ -13,12 +12,8 @@ const NewEventForm = () => {
     const [activeTab, setActiveTab] = useState("basic")
     const [lastTab, setLastTab] = useState(false)
 
-    const [products, setProducts] = useState([])
-    const [search, setSearch] = useState("")
-    const [filteredProducts, setFilteredProducts] = useState([])
-
     const handleNext = () => {
-        const tabs = ["basic", "details", "products", "confirm"]
+        const tabs = ["basic", "details", "confirm"]
         const currentIndex = tabs.indexOf(activeTab)
 
         if (currentIndex < tabs.length - 1) {
@@ -38,29 +33,6 @@ const NewEventForm = () => {
             })
             .catch(err => console.log(err))
     }
-
-    useEffect(() => {
-        loadProducts()
-    }, [])
-
-    const loadProducts = () => {
-        productsService
-            .getAllProducts()
-            .then(({ data }) => {
-                setProducts(data)
-            })
-            .catch(err => console.log(err))
-    }
-
-    const handleSearchChange = (e) => {
-        const searchString = e.target.value;
-        const filteredProducts = products.filter((product) =>
-            product.name.toLowerCase().includes(searchString.toLowerCase())
-        );
-        setSearch(searchString);
-        setFilteredProducts(filteredProducts);
-    };
-
 
     return (
         <Form onSubmit={handleFormSubmit}>
@@ -119,30 +91,6 @@ const NewEventForm = () => {
                             name="location"
                             onChange={(e) => setFormData({ ...formData, location: e.target.value })}
                         />
-                    </Form.Group>
-                    <Button variant="dark" onClick={handleNext}>
-                        Next
-                    </Button>
-                </Tab>
-
-                <Tab eventKey="products" title="Products">
-                    <Form.Group className="mb-3" controlId="selectedProducts">
-                        <Form.Label>Products</Form.Label>
-                        <Form.Control
-                            type="text"
-                            placeholder="Search products..."
-                            value={search}
-                            onChange={handleSearchChange}
-                        />
-
-                        <Form.Control as="select" name="selectedProducts" multiple>
-                            {products.map((product) => (
-                                <option key={product.id} value={product.id}>
-                                    {product.name}
-                                </option>
-                            ))}
-                        </Form.Control>
-
                     </Form.Group>
                     <Button variant="dark" onClick={handleNext}>
                         Next

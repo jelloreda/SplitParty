@@ -3,5 +3,18 @@
     display: grid;
     place-items: center;
     font-size: 2em;
-    color: white
+    color: white;
+    margin: none;
+}
+
+.eventCardBody {
+    padding: 1rem;
+}
+
+.eventCardDate {
+    font-weight: bold;
+}
+
+.eventCardDescription {
+    margin-top: 1rem;
 }
